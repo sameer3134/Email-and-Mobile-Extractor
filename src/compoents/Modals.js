@@ -11,7 +11,7 @@ const Modals = () => {
        <Modal  show={show}  >
                 <Modal.Body >
                
-                  <img className="img-fluid" src={gif}/> 
+                  <img className="img-fluid" alt="hello" src={gif}/> 
                 </Modal.Body>
                 <Modal.Footer>
                    

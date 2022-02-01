@@ -9,7 +9,7 @@ export default function TextForm(props) {
         props.showalert("Email extracted", "Success")
     }
     const extractmbile= ()=>{
-        let newText= text.match(/[\+]?\d{10}|\(\d{3}\)\s?-\d{6}/);
+        let newText= text.match(/[,]?\d{10}|\(\d{3}\)\s?-\d{6}/);
         setText(newText==='null'?"":newText)
         props.showalert("Mobile no. extracted", "Success")
     }
